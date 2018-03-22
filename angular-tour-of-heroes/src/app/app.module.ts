@@ -20,12 +20,11 @@ import { AppRoutingModule }     from './app-routing.module';
   ],
   declarations: [
     AppComponent,
+    DashboardComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent,
-    DashboardComponent
+    MessagesComponent
   ],
-  
   providers: [ HeroService, MessageService ],
   bootstrap: [ AppComponent ]
 })
